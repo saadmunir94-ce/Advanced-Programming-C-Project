@@ -1,0 +1,1037 @@
+{
+"game" : "sc2-hots-protoss",
+"buildlistValid" : "1",
+"initialUnits" :  { 
+"probe": ["2","3","4","5","6","7"],
+"nexus": ["1"]
+},
+"messages" : [
+{
+"time" : 1,
+"status" : {
+"workers" : {
+"minerals" : 6,
+"vespene" : 0
+},
+"resources" : {
+"minerals" : 4,
+"vespene" : 0,
+"supply-used" : 7,
+"supply" : 10
+}
+},
+"events" : [
+{
+"type" : "build-start",
+"name" : "probe",
+"producerID" : "1"
+}
+]
+},
+{
+"time" : 18,
+"status" : {
+"workers" : {
+"minerals" : 7,
+"vespene" : 0
+},
+"resources" : {
+"minerals" : 25,
+"vespene" : 0,
+"supply-used" : 8,
+"supply" : 10
+}
+},
+"events" : [
+{
+"type" : "build-end",
+"name" : "probe",
+"producerID" : "1",
+"producedIDs": [ 
+"8"]
+},
+{
+"type" : "build-start",
+"name" : "probe",
+"producerID" : "1"
+}
+]
+},
+{
+"time" : 34,
+"status" : {
+"workers" : {
+"minerals" : 7,
+"vespene" : 0
+},
+"resources" : {
+"minerals" : 4,
+"vespene" : 0,
+"supply-used" : 8,
+"supply" : 10
+}
+},
+"events" : [
+{
+"type" : "build-start",
+"name" : "pylon",
+"producerID" : "2"
+}
+]
+},
+{
+"time" : 35,
+"status" : {
+"workers" : {
+"minerals" : 8,
+"vespene" : 0
+},
+"resources" : {
+"minerals" : 8,
+"vespene" : 0,
+"supply-used" : 8,
+"supply" : 10
+}
+},
+"events" : [
+{
+"type" : "build-end",
+"name" : "probe",
+"producerID" : "1",
+"producedIDs": [ 
+"9"]
+}
+]
+},
+{
+"time" : 43,
+"status" : {
+"workers" : {
+"minerals" : 8,
+"vespene" : 0
+},
+"resources" : {
+"minerals" : 3,
+"vespene" : 0,
+"supply-used" : 9,
+"supply" : 10
+}
+},
+"events" : [
+{
+"type" : "build-start",
+"name" : "probe",
+"producerID" : "1"
+}
+]
+},
+{
+"time" : 45,
+"status" : {
+"workers" : {
+"minerals" : 8,
+"vespene" : 0
+},
+"resources" : {
+"minerals" : 14,
+"vespene" : 0,
+"supply-used" : 9,
+"supply" : 10
+}
+},
+"events" : [
+{
+"type": "special",
+"name" : "chronoboost",
+"triggeredBy": "1",
+"targetName" : "nexus",
+"targetBuilding": "1"
+}
+]
+},
+{
+"time" : 55,
+"status" : {
+"workers" : {
+"minerals" : 9,
+"vespene" : 0
+},
+"resources" : {
+"minerals" : 70,
+"vespene" : 0,
+"supply-used" : 9,
+"supply" : 10
+}
+},
+"events" : [
+{
+"type" : "build-end",
+"name" : "probe",
+"producerID" : "1",
+"producedIDs": [ 
+"11"]
+}
+]
+},
+{
+"time" : 59,
+"status" : {
+"workers" : {
+"minerals" : 9,
+"vespene" : 0
+},
+"resources" : {
+"minerals" : 96,
+"vespene" : 0,
+"supply-used" : 9,
+"supply" : 18
+}
+},
+"events" : [
+{
+"type" : "build-end",
+"name" : "pylon",
+"producerID" : "2",
+"producedIDs": [ 
+"10"]
+}
+]
+},
+{
+"time" : 68,
+"status" : {
+"workers" : {
+"minerals" : 9,
+"vespene" : 0
+},
+"resources" : {
+"minerals" : 2,
+"vespene" : 0,
+"supply-used" : 9,
+"supply" : 18
+}
+},
+"events" : [
+{
+"type" : "build-start",
+"name" : "gateway",
+"producerID" : "2"
+}
+]
+},
+{
+"time" : 133,
+"status" : {
+"workers" : {
+"minerals" : 9,
+"vespene" : 0
+},
+"resources" : {
+"minerals" : 312,
+"vespene" : 0,
+"supply-used" : 11,
+"supply" : 18
+}
+},
+"events" : [
+{
+"type" : "build-end",
+"name" : "gateway",
+"producerID" : "2",
+"producedIDs": [ 
+"12"]
+},
+{
+"type" : "build-start",
+"name" : "zealot",
+"producerID" : "12"
+}
+]
+},
+{
+"time" : 134,
+"status" : {
+"workers" : {
+"minerals" : 9,
+"vespene" : 0
+},
+"resources" : {
+"minerals" : 318,
+"vespene" : 0,
+"supply-used" : 11,
+"supply" : 18
+}
+},
+"events" : [
+{
+"type": "special",
+"name" : "chronoboost",
+"triggeredBy": "1",
+"targetName" : "gateway",
+"targetBuilding": "12"
+}
+]
+},
+{
+"time" : 135,
+"status" : {
+"workers" : {
+"minerals" : 9,
+"vespene" : 0
+},
+"resources" : {
+"minerals" : 174,
+"vespene" : 0,
+"supply-used" : 11,
+"supply" : 18
+}
+},
+"events" : [
+{
+"type" : "build-start",
+"name" : "gateway",
+"producerID" : "2"
+}
+]
+},
+{
+"time" : 136,
+"status" : {
+"workers" : {
+"minerals" : 9,
+"vespene" : 0
+},
+"resources" : {
+"minerals" : 81,
+"vespene" : 0,
+"supply-used" : 11,
+"supply" : 18
+}
+},
+"events" : [
+{
+"type" : "build-start",
+"name" : "pylon",
+"producerID" : "2"
+}
+]
+},
+{
+"time" : 155,
+"status" : {
+"workers" : {
+"minerals" : 9,
+"vespene" : 0
+},
+"resources" : {
+"minerals" : 200,
+"vespene" : 0,
+"supply-used" : 11,
+"supply" : 18
+}
+},
+"events" : [
+{
+"type": "special",
+"name" : "chronoboost",
+"triggeredBy": "1",
+"targetName" : "gateway",
+"targetBuilding": "12"
+}
+]
+},
+{
+"time" : 159,
+"status" : {
+"workers" : {
+"minerals" : 9,
+"vespene" : 0
+},
+"resources" : {
+"minerals" : 226,
+"vespene" : 0,
+"supply-used" : 11,
+"supply" : 18
+}
+},
+"events" : [
+{
+"type" : "build-end",
+"name" : "zealot",
+"producerID" : "12",
+"producedIDs": [ 
+"13"]
+}
+]
+},
+{
+"time" : 161,
+"status" : {
+"workers" : {
+"minerals" : 9,
+"vespene" : 0
+},
+"resources" : {
+"minerals" : 238,
+"vespene" : 0,
+"supply-used" : 11,
+"supply" : 26
+}
+},
+"events" : [
+{
+"type" : "build-end",
+"name" : "pylon",
+"producerID" : "2",
+"producedIDs": [ 
+"15"]
+}
+]
+},
+{
+"time" : 169,
+"status" : {
+"workers" : {
+"minerals" : 9,
+"vespene" : 0
+},
+"resources" : {
+"minerals" : 189,
+"vespene" : 0,
+"supply-used" : 13,
+"supply" : 26
+}
+},
+"events" : [
+{
+"type" : "build-start",
+"name" : "zealot",
+"producerID" : "12"
+}
+]
+},
+{
+"time" : 170,
+"status" : {
+"workers" : {
+"minerals" : 9,
+"vespene" : 0
+},
+"resources" : {
+"minerals" : 45,
+"vespene" : 0,
+"supply-used" : 13,
+"supply" : 26
+}
+},
+"events" : [
+{
+"type" : "build-start",
+"name" : "gateway",
+"producerID" : "2"
+}
+]
+},
+{
+"time" : 178,
+"status" : {
+"workers" : {
+"minerals" : 9,
+"vespene" : 0
+},
+"resources" : {
+"minerals" : 95,
+"vespene" : 0,
+"supply-used" : 13,
+"supply" : 26
+}
+},
+"events" : [
+{
+"type": "special",
+"name" : "chronoboost",
+"triggeredBy": "1",
+"targetName" : "gateway",
+"targetBuilding": "12"
+}
+]
+},
+{
+"time" : 196,
+"status" : {
+"workers" : {
+"minerals" : 9,
+"vespene" : 0
+},
+"resources" : {
+"minerals" : 209,
+"vespene" : 0,
+"supply-used" : 13,
+"supply" : 26
+}
+},
+"events" : [
+{
+"type" : "build-end",
+"name" : "zealot",
+"producerID" : "12",
+"producedIDs": [ 
+"16"]
+}
+]
+},
+{
+"time" : 200,
+"status" : {
+"workers" : {
+"minerals" : 9,
+"vespene" : 0
+},
+"resources" : {
+"minerals" : 234,
+"vespene" : 0,
+"supply-used" : 13,
+"supply" : 26
+}
+},
+"events" : [
+{
+"type" : "build-end",
+"name" : "gateway",
+"producerID" : "2",
+"producedIDs": [ 
+"14"]
+}
+]
+},
+{
+"time" : 203,
+"status" : {
+"workers" : {
+"minerals" : 9,
+"vespene" : 0
+},
+"resources" : {
+"minerals" : 153,
+"vespene" : 0,
+"supply-used" : 15,
+"supply" : 26
+}
+},
+"events" : [
+{
+"type" : "build-start",
+"name" : "zealot",
+"producerID" : "12"
+}
+]
+},
+{
+"time" : 204,
+"status" : {
+"workers" : {
+"minerals" : 9,
+"vespene" : 0
+},
+"resources" : {
+"minerals" : 59,
+"vespene" : 0,
+"supply-used" : 15,
+"supply" : 26
+}
+},
+"events" : [
+{
+"type" : "build-start",
+"name" : "pylon",
+"producerID" : "2"
+}
+]
+},
+{
+"time" : 211,
+"status" : {
+"workers" : {
+"minerals" : 9,
+"vespene" : 0
+},
+"resources" : {
+"minerals" : 3,
+"vespene" : 0,
+"supply-used" : 17,
+"supply" : 26
+}
+},
+"events" : [
+{
+"type" : "build-start",
+"name" : "zealot",
+"producerID" : "14"
+}
+]
+},
+{
+"time" : 223,
+"status" : {
+"workers" : {
+"minerals" : 9,
+"vespene" : 0
+},
+"resources" : {
+"minerals" : 79,
+"vespene" : 0,
+"supply-used" : 17,
+"supply" : 26
+}
+},
+"events" : [
+{
+"type": "special",
+"name" : "chronoboost",
+"triggeredBy": "1",
+"targetName" : "gateway",
+"targetBuilding": "14"
+}
+]
+},
+{
+"time" : 229,
+"status" : {
+"workers" : {
+"minerals" : 9,
+"vespene" : 0
+},
+"resources" : {
+"minerals" : 117,
+"vespene" : 0,
+"supply-used" : 17,
+"supply" : 34
+}
+},
+"events" : [
+{
+"type" : "build-end",
+"name" : "pylon",
+"producerID" : "2",
+"producedIDs": [ 
+"19"]
+}
+]
+},
+{
+"time" : 235,
+"status" : {
+"workers" : {
+"minerals" : 9,
+"vespene" : 0
+},
+"resources" : {
+"minerals" : 154,
+"vespene" : 0,
+"supply-used" : 17,
+"supply" : 34
+}
+},
+"events" : [
+{
+"type" : "build-end",
+"name" : "gateway",
+"producerID" : "2",
+"producedIDs": [ 
+"17"]
+}
+]
+},
+{
+"time" : 241,
+"status" : {
+"workers" : {
+"minerals" : 9,
+"vespene" : 0
+},
+"resources" : {
+"minerals" : 92,
+"vespene" : 0,
+"supply-used" : 19,
+"supply" : 34
+}
+},
+"events" : [
+{
+"type" : "build-end",
+"name" : "zealot",
+"producerID" : "14",
+"producedIDs": [ 
+"20"]
+},
+{
+"type" : "build-end",
+"name" : "zealot",
+"producerID" : "12",
+"producedIDs": [ 
+"18"]
+},
+{
+"type" : "build-start",
+"name" : "zealot",
+"producerID" : "12"
+}
+]
+},
+{
+"time" : 243,
+"status" : {
+"workers" : {
+"minerals" : 9,
+"vespene" : 0
+},
+"resources" : {
+"minerals" : 5,
+"vespene" : 0,
+"supply-used" : 21,
+"supply" : 34
+}
+},
+"events" : [
+{
+"type" : "build-start",
+"name" : "zealot",
+"producerID" : "14"
+}
+]
+},
+{
+"time" : 259,
+"status" : {
+"workers" : {
+"minerals" : 9,
+"vespene" : 0
+},
+"resources" : {
+"minerals" : 6,
+"vespene" : 0,
+"supply-used" : 23,
+"supply" : 34
+}
+},
+"events" : [
+{
+"type" : "build-start",
+"name" : "zealot",
+"producerID" : "17"
+}
+]
+},
+{
+"time" : 267,
+"status" : {
+"workers" : {
+"minerals" : 9,
+"vespene" : 0
+},
+"resources" : {
+"minerals" : 56,
+"vespene" : 0,
+"supply-used" : 23,
+"supply" : 34
+}
+},
+"events" : [
+{
+"type": "special",
+"name" : "chronoboost",
+"triggeredBy": "1",
+"targetName" : "gateway",
+"targetBuilding": "17"
+}
+]
+},
+{
+"time" : 279,
+"status" : {
+"workers" : {
+"minerals" : 9,
+"vespene" : 0
+},
+"resources" : {
+"minerals" : 32,
+"vespene" : 0,
+"supply-used" : 25,
+"supply" : 34
+}
+},
+"events" : [
+{
+"type" : "build-end",
+"name" : "zealot",
+"producerID" : "12",
+"producedIDs": [ 
+"21"]
+},
+{
+"type" : "build-start",
+"name" : "zealot",
+"producerID" : "12"
+}
+]
+},
+{
+"time" : 281,
+"status" : {
+"workers" : {
+"minerals" : 9,
+"vespene" : 0
+},
+"resources" : {
+"minerals" : 44,
+"vespene" : 0,
+"supply-used" : 25,
+"supply" : 34
+}
+},
+"events" : [
+{
+"type" : "build-end",
+"name" : "zealot",
+"producerID" : "14",
+"producedIDs": [ 
+"22"]
+}
+]
+},
+{
+"time" : 287,
+"status" : {
+"workers" : {
+"minerals" : 9,
+"vespene" : 0
+},
+"resources" : {
+"minerals" : 82,
+"vespene" : 0,
+"supply-used" : 25,
+"supply" : 34
+}
+},
+"events" : [
+{
+"type" : "build-end",
+"name" : "zealot",
+"producerID" : "17",
+"producedIDs": [ 
+"23"]
+}
+]
+},
+{
+"time" : 290,
+"status" : {
+"workers" : {
+"minerals" : 9,
+"vespene" : 0
+},
+"resources" : {
+"minerals" : 1,
+"vespene" : 0,
+"supply-used" : 27,
+"supply" : 34
+}
+},
+"events" : [
+{
+"type" : "build-start",
+"name" : "zealot",
+"producerID" : "14"
+}
+]
+},
+{
+"time" : 306,
+"status" : {
+"workers" : {
+"minerals" : 9,
+"vespene" : 0
+},
+"resources" : {
+"minerals" : 2,
+"vespene" : 0,
+"supply-used" : 29,
+"supply" : 34
+}
+},
+"events" : [
+{
+"type" : "build-start",
+"name" : "zealot",
+"producerID" : "17"
+}
+]
+},
+{
+"time" : 312,
+"status" : {
+"workers" : {
+"minerals" : 9,
+"vespene" : 0
+},
+"resources" : {
+"minerals" : 40,
+"vespene" : 0,
+"supply-used" : 29,
+"supply" : 34
+}
+},
+"events" : [
+{
+"type": "special",
+"name" : "chronoboost",
+"triggeredBy": "1",
+"targetName" : "gateway",
+"targetBuilding": "17"
+}
+]
+},
+{
+"time" : 317,
+"status" : {
+"workers" : {
+"minerals" : 9,
+"vespene" : 0
+},
+"resources" : {
+"minerals" : 71,
+"vespene" : 0,
+"supply-used" : 29,
+"supply" : 34
+}
+},
+"events" : [
+{
+"type" : "build-end",
+"name" : "zealot",
+"producerID" : "12",
+"producedIDs": [ 
+"24"]
+}
+]
+},
+{
+"time" : 322,
+"status" : {
+"workers" : {
+"minerals" : 9,
+"vespene" : 0
+},
+"resources" : {
+"minerals" : 3,
+"vespene" : 0,
+"supply-used" : 31,
+"supply" : 34
+}
+},
+"events" : [
+{
+"type" : "build-start",
+"name" : "zealot",
+"producerID" : "12"
+}
+]
+},
+{
+"time" : 328,
+"status" : {
+"workers" : {
+"minerals" : 9,
+"vespene" : 0
+},
+"resources" : {
+"minerals" : 40,
+"vespene" : 0,
+"supply-used" : 31,
+"supply" : 34
+}
+},
+"events" : [
+{
+"type" : "build-end",
+"name" : "zealot",
+"producerID" : "14",
+"producedIDs": [ 
+"25"]
+}
+]
+},
+{
+"time" : 334,
+"status" : {
+"workers" : {
+"minerals" : 9,
+"vespene" : 0
+},
+"resources" : {
+"minerals" : 78,
+"vespene" : 0,
+"supply-used" : 31,
+"supply" : 34
+}
+},
+"events" : [
+{
+"type" : "build-end",
+"name" : "zealot",
+"producerID" : "17",
+"producedIDs": [ 
+"26"]
+}
+]
+},
+{
+"time" : 356,
+"status" : {
+"workers" : {
+"minerals" : 9,
+"vespene" : 0
+},
+"resources" : {
+"minerals" : 217,
+"vespene" : 0,
+"supply-used" : 31,
+"supply" : 34
+}
+},
+"events" : [
+{
+"type": "special",
+"name" : "chronoboost",
+"triggeredBy": "1",
+"targetName" : "gateway",
+"targetBuilding": "12"
+}
+]
+},
+{
+"time" : 359,
+"status" : {
+"workers" : {
+"minerals" : 9,
+"vespene" : 0
+},
+"resources" : {
+"minerals" : 236,
+"vespene" : 0,
+"supply-used" : 31,
+"supply" : 34
+}
+},
+"events" : [
+{
+"type" : "build-end",
+"name" : "zealot",
+"producerID" : "12",
+"producedIDs": [ 
+"27"]
+}
+]
+}
+]
+}

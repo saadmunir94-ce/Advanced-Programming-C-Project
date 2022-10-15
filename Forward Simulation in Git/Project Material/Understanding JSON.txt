@@ -1,0 +1,274 @@
+{
+   "buildlistValid": 1,
+   "game": "sc2-hots-protoss",
+   "messages": [
+      {
+         "time": 1,
+         "status": {
+            "workers": {
+               "minerals": 6,
+               "vespene": 0
+            },
+            "resources": {
+               "minerals": 4,
+               "vespene": 0,
+               "supply-used": 7,
+               "supply": 10
+            }
+         },
+         "events": [
+            {
+               "type": "build-start",
+               "name": "probe"
+            }
+         ]
+      },
+      {
+         "time": 18,
+         "status": {
+            "workers": {
+               "minerals": 7,
+               "vespene": 0
+            },
+            "resources": {
+               "minerals": 25,
+               "vespene": 0,
+               "supply-used": 8,
+               "supply": 10
+            }
+         },
+         "events": [
+            {
+               "type": "build-end",
+               "name": "probe"
+            },
+            {
+               "type": "build-start",
+               "name": "probe"
+            }
+         ]
+      },
+      {
+         "time": 35,
+         "status": {
+            "workers": {
+               "minerals": 8,
+               "vespene": 0
+            },
+            "resources": {
+               "minerals": 58,
+               "vespene": 0,
+               "supply-used": 9,
+               "supply": 10
+            }
+         },
+         "events": [
+            {
+               "type": "build-end",
+               "name": "probe"
+            },
+            {
+               "type": "build-start",
+               "name": "probe"
+            }
+         ]
+      },
+      {
+         "time": 43,
+         "status": {
+            "workers": {
+               "minerals": 8,
+               "vespene": 0
+            },
+            "resources": {
+               "minerals": 3,
+               "vespene": 0,
+               "supply-used": 9,
+               "supply": 10
+            }
+         },
+         "events": [
+            {
+               "type": "build-start",
+               "name": "pylon"
+            }
+         ]
+      },
+      {
+         "time": 52,
+         "status": {
+            "workers": {
+               "minerals": 9,
+               "vespene": 0
+            },
+            "resources": {
+               "minerals": 54,
+               "vespene": 0,
+               "supply-used": 9,
+               "supply": 10
+            }
+         },
+         "events": [
+            {
+               "type": "build-end",
+               "name": "probe"
+            }
+         ]
+      },
+      {
+         "time": 68,
+         "status": {
+            "workers": {
+               "minerals": 9,
+               "vespene": 0
+            },
+            "resources": {
+               "minerals": 4,
+               "vespene": 0,
+               "supply-used": 9,
+               "supply": 18
+            }
+         },
+         "events": [
+            {
+               "type": "build-end",
+               "name": "pylon"
+            },
+            {
+               "type": "build-start",
+               "name": "gateway"
+            }
+         ]
+      },
+      {
+         "time": 133,
+         "status": {
+            "workers": {
+               "minerals": 9,
+               "vespene": 0
+            },
+            "resources": {
+               "minerals": 264,
+               "vespene": 0,
+               "supply-used": 9,
+               "supply": 18
+            }
+         },
+         "events": [
+            {
+               "type": "build-end",
+               "name": "gateway"
+            },
+            {
+               "type": "build-start",
+               "name": "cybernetics_core"
+            }
+         ]
+      },
+      {
+         "time": 134,
+         "status": {
+            "workers": {
+               "minerals": 9,
+               "vespene": 0
+            },
+            "resources": {
+               "minerals": 195,
+               "vespene": 0,
+               "supply-used": 9,
+               "supply": 18
+            }
+         },
+         "events": [
+            {
+               "type": "build-start",
+               "name": "assimilator"
+            }
+         ]
+      },
+      {
+         "time": 135,
+         "status": {
+            "workers": {
+               "minerals": 9,
+               "vespene": 0
+            },
+            "resources": {
+               "minerals": 152,
+               "vespene": 0,
+               "supply-used": 10,
+               "supply": 18
+            }
+         },
+         "events": [
+            {
+               "type": "build-start",
+               "name": "probe"
+            }
+         ]
+      },
+      {
+         "time": 152,
+         "status": {
+            "workers": {
+               "minerals": 10,
+               "vespene": 0
+            },
+            "resources": {
+               "minerals": 259,
+               "vespene": 0,
+               "supply-used": 10,
+               "supply": 18
+            }
+         },
+         "events": [
+            {
+               "type": "build-end",
+               "name": "probe"
+            }
+         ]
+      },
+      {
+         "time": 164,
+         "status": {
+            "workers": {
+               "minerals": 7,
+               "vespene": 3
+            },
+            "resources": {
+               "minerals": 343,
+               "vespene": 0,
+               "supply-used": 10,
+               "supply": 18
+            }
+         },
+         "events": [
+            {
+               "type": "build-end",
+               "name": "assimilator"
+            }
+         ]
+      },
+      {
+         "time": 183,
+         "status": {
+            "workers": {
+               "minerals": 7,
+               "vespene": 3
+            },
+            "resources": {
+               "minerals": 436,
+               "vespene": 19,
+               "supply-used": 10,
+               "supply": 18
+            }
+         },
+         "events": [
+            {
+               "type": "build-end",
+               "name": "cybernetics_core"
+            }
+         ]
+      }
+   ]
+}
