@@ -1,2 +1,2 @@
 # Advanced-Programming-C++-Project
-This project implements forward simulation of a strategy game in C++. Later on, I implement a genetic algorithm for optimizing build lists such that the time taken to produce a given no of attackers is minimized.
+This project implements forward simulation of a strategy game called "Starcraft 2" in C++ using object-oriented principles and STL library. Later on, I implemented a genetic algorithm for optimizing build lists to minimize the time taken for generating a given number of specific attackers while also ensuring the build list still remains valid. 
